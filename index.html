@@ -15,7 +15,7 @@
     <header>
           <nav class="navbar">
             <ul class="menu">
-              <li><a href="#portfolio">Mi Trabajo</a></li>
+              <li><a href="#portfolio">Mis Trabajos</a></li>
               <li><a href="#tecnologias">Tecnologías</a></li>
               <li><a href="#educacion">Educación</a></li>
               <li><a href="#contacto">Contacto</a></li>
@@ -81,14 +81,13 @@
                   <img src="img/Excel-ms-excel-48.png" alt="Excel">
                 </div>
 
-              <img src="img/Looker2.png" alt="Análisis Financiero">
+              <img src="img/informeExcel.png" alt="Análisis Financiero">
 
-              <h3>Análisis Financiero</h3>
-              <p>Optimización de costos y rentabilidad.</p>
+              <h3>Análisis Nómina</h3>
+              <p>Costo salarial por departamento.</p>
 
               <div class="btn-container">
                 <a id="btnModal3" class="btn-link">Detalles</a>
-                <a href="https://lookerstudio.google.com/s/t7HVFT-HMmE"  target="_blank" class="btn-link">Ver Informe</a>
               </div>
 
             </div>
@@ -97,17 +96,16 @@
             <div class="card">
                 <div class="tech-icons">
                   <img src="img/power-bi-2021-48.png" alt="Looker">
-                  <img src="img/sql-48.png" alt="Sheets">
+                  <img src="img/sheets-hojas-de-cálculo-48.png" alt="Sheets">
                 </div>
 
-              <img src="img/Looker2.png" alt="Análisis Financiero">
+              <img src="img/InformeRRHH.png" alt="Análisis Financiero">
 
-              <h3>Análisis Financiero</h3>
-              <p>Optimización de costos y rentabilidad.</p>
+              <h3>Dashboard RRHH</h3>
+              <p>Evolución salarial por departamento y género.</p>
 
               <div class="btn-container">
                 <a id="btnModal4" class="btn-link">Detalles</a>
-                <a href="https://lookerstudio.google.com/s/t7HVFT-HMmE"  target="_blank" class="btn-link">Ver Informe</a>
               </div>
 
             </div>
@@ -121,7 +119,7 @@
               <img src="img/InformeSheets.png" alt="Análisis Financiero">
 
               <h3>Informe de Ventas</h3>
-              <p>Evolucíon de Ventas</p>
+              <p>Evolución de Ventas por Período y Prioridad Envío</p>
 
               <div class="btn-container">
                 <a id="btnModal5" class="btn-link">Detalles</a>
@@ -134,12 +132,12 @@
             <div class="card">
                 <div class="tech-icons">
                   <img src="img/icons8-python-48.png" alt="Python">
-                  <img src="img/icons8-pandas-48.png" alt="Pandas">
+                  <img src="img/icons8-jupyter-48.png" alt="Jupyter">
                 </div>
 
               <img src="img/Captura de pantalla 2025-03-03 143433.png" alt="Análisis Logística">
 
-              <h3>Análisis Logística</h3>
+              <h3>Análisis de Logística</h3>
               <p>Información sobre envíos, vehículos y ubicaciones.</p>
 
               <div class="btn-container">
@@ -158,10 +156,6 @@
         <h2>Tecnologías</h2>
         <div class="tecnologias-container">
             <div class="tecnologia">
-                <img src="img/sql-48.png" alt="SQL">
-                <p>SQL</p>
-            </div>
-            <div class="tecnologia">
                 <img src="img/power-bi-2021-48.png" alt="Power BI">
                 <p>Power BI</p>
             </div>
@@ -176,6 +170,10 @@
             <div class="tecnologia">
                 <img src="img/sheets-hojas-de-cálculo-48.png" alt="Google Sheets">
                 <p>Google Sheets</p>
+            </div>
+            <div class="tecnologia">
+              <img src="img/sql-48.png" alt="SQL">
+              <p>SQL</p>
             </div>
             <div class="tecnologia">
                 <img src="img/icons8-mysql-48.png" alt="Mysql">
@@ -227,7 +225,7 @@
             <!-- Lado Derecho - Formulario de Contacto -->
             <div id="contacto" class="contacto-form">
                 <h2>Contacto</h2>
-                <p class="parrafo"><em>¡Espero tu consulta y/o comentario!</em></p>
+                <p class="parrafo"><em>¡Espero tu consulta o comentario!</em></p>
                 <form action="" method="get" id="form">
                     <label for="nombre">Nombre</label>
                     <input type="text" id="nombre" name="nombre" class="form-control" required>
@@ -252,11 +250,12 @@
             <span class="close" data-modal="myModal1">&times;</span>
             <h3>Detalles del Dashboard Clientes</h3>
             <p>
-                En este trabajo se ha aplicado el modelo estrella, la tabla calendario y el análisis temporal, además de profundizar con las medidas DAX, incluyendo:
+                En este trabajo se ha aplicado el modelo estrella, la tabla calendario y 
+                el análisis temporal, además de profundizar con las medidas DAX:
             </p>
             <ul>
                 <li class="det"><strong>Modelado:</strong> Modelo Estrella.</li>
-                <li class="det"><strong>Segmentación:</strong> Implementación de filtros interactivos para análisis por categoría, fecha, o productos específicos.</li>
+                <li class="det"><strong>Segmentación:</strong> Implementación de filtros interactivos para análisis por categoría, fecha o productos específicos.</li>
                 <li class="det"><strong>Navegación entre páginas:</strong> Facilita el flujo entre diferentes reportes dentro del dashboard.</li>
                 <li class="det"><strong>Power Query:</strong> Limpieza y transformación de datos para optimizar el análisis.</li>
                 <li class="det"><strong>DAX:</strong> Uso de medidas como DISTINCTCOUNT, SUM, SUMX, MAX, AVERAGE, COUNTROWS.</li>
@@ -276,7 +275,7 @@
               </p>
               <ul>
                   <li class="det"><strong>ETL:</strong> limpieza de datos y creación de tablas, utilizando Google Sheets.</li>
-                  <li class="det"><strong>Segmentación:</strong> Implementación de filtros interactivos para análisis por categoría, o años.</li>
+                  <li class="det"><strong>Segmentación:</strong> Implementación de filtros interactivos para análisis por categoría o años.</li>
                   <li class="det"><strong>Navegación entre páginas:</strong> Facilita el flujo entre diferentes reportes dentro del dashboard.</li>
               </ul>
           </div>
@@ -286,71 +285,68 @@
     <div id="myModal3" class="modal">
       <div class="modal-content">
         <span class="close" data-modal="myModal3">&times;</span>
-          <h3>Informe de ventas</h3>
+          <h3>Costo salarial por departamento</h3>
           <p>
                 Construido con Excel,
                 facilita la creación de paneles interactivos e informes atractivos a partir de una amplia variedad de fuentes de datos, 
                 lo que permite tomar decisiones empresariales más informadas.
           </p>
           <ul>
-              <li class="det"><strong>ETL:</strong> limpieza de datos y creación de tablas dinàmicas , gráficos dinámicos.</li>
-              <li class="det"><strong>Segmentación:</strong> Implementación de filtros interactivos para análisis por categoría, o años.</li>
+              <li class="det"><strong>ETL:</strong> limpieza de datos y creación de tablas dinámicas , gráficos dinámicos.</li>
+              <li class="det"><strong>Segmentación:</strong> Implementación de filtros interactivos para análisis por categoría o años.</li>
           </ul>
       </div>
-  </div>
+   </div>
 
-  <!-- Modal 4 -->
-  <div id="myModal4" class="modal">
+    <!-- Modal 4 -->
+    <div id="myModal4" class="modal">
+        <div class="modal-content">
+          <span class="close" data-modal="myModal4">&times;</span>
+            <h3>Evolución salarial</h3>
+            <p>
+              Aquí no se ha aplicado modelado, pero si se ha incluido la tabla calendario y 
+              el análisis temporal, y la utilización de algunas medidas DAX sencillas:
+          </p>
+          <ul>
+              <li class="det"><strong>Segmentación:</strong> Implementación de filtros interactivos para análisis por categoría, fecha o productos específicos.</li>
+              <li class="det"><strong>DAX:</strong> Uso de medidas como SUM, SUMX, MAX, AVERAGE, COUNTROWS.</li>
+          </ul>
+        </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div id="myModal5" class="modal">
       <div class="modal-content">
-        <span class="close" data-modal="myModal4">&times;</span>
+        <span class="close" data-modal="myModal5">&times;</span>
           <h3>Informe de ventas</h3>
           <p>
-                Construido con Excel,
-                facilita la creación de paneles interactivos e informes atractivos a partir de una amplia variedad de fuentes de datos, 
-                lo que permite tomar decisiones empresariales más informadas.
-          </p>
-          <ul>
-              <li class="det"><strong>ETL:</strong> limpieza de datos y creación de tablas dinàmicas , gráficos dinámicos.</li>
-              <li class="det"><strong>Segmentación:</strong> Implementación de filtros interactivos para análisis por categoría, o años.</li>
-          </ul>
-      </div>
-  </div>
-
-  <!-- Modal 5 -->
-  <div id="myModal5" class="modal">
-    <div class="modal-content">
-      <span class="close" data-modal="myModal5">&times;</span>
-        <h3>Informe de ventas</h3>
-        <p>
-              Construido con Excel,
-              facilita la creación de paneles interactivos e informes atractivos a partir de una amplia variedad de fuentes de datos, 
-              lo que permite tomar decisiones empresariales más informadas.
+            Creado en Google Sheets, este informe muestra un resumen de ventas según los tipos de envíos, incluye:
         </p>
         <ul>
-            <li class="det"><strong>ETL:</strong> limpieza de datos y creación de tablas dinàmicas , gráficos dinámicos.</li>
-            <li class="det"><strong>Segmentación:</strong> Implementación de filtros interactivos para análisis por categoría, o años.</li>
+            <li class="det"><strong>Tablas dinámicas:</strong> Análisis flexible y dinámico de los datos con opciones de filtrado y resumen.</li>
+            <li class="det"><strong>Función SPARKLINE:</strong> Permite crear gráficos en miniatura dentro de una celda, generando reportes instantáneos.</li>
+            <li class="det"><strong>Gráficos:</strong> Visualización de tendencias y comparaciones a través de diferentes tipos de gráficos.</li>
         </ul>
+      </div>
     </div>
-  </div>
 
-<!-- Modal 6 -->
-<div id="myModal6" class="modal">
-  <div class="modal-content">
-    <span class="close" data-modal="myModal6">&times;</span>
-      <h3>Análisis Logística</h3>
-      <p>
-        El dataset tiene 3,585 registros y 28 columnas, 
-        con información sobre envíos, vehículos, ubicaciones y tiempos de viaje. 
-      </p>
-      <ul>
-          <li class="det">Distribución de los tipos de envío (gráfico de barras)</li>
-          <li class="det">Análisis de puntualidad (envíos "A Tiempo" vs. "Tarde").</li>
-          <li class="det">Distribución de la distancia de transporte (histograma).</li>
-          <li class="det">Comparación de proveedores por cantidad de envíos.</li>
-          <li class="det">Duración promedio de los viajes por tipo de vehículo.</li>
-      </ul>
-  </div>
-</div>
+    <!-- Modal 6 -->
+    <div id="myModal6" class="modal">
+      <div class="modal-content">
+        <span class="close" data-modal="myModal6">&times;</span>
+          <h3>Análisis Logística</h3>
+          <p>
+            El dataset tiene 3,585 registros y 28 columnas, 
+            con información sobre envíos, vehículos, ubicaciones y tiempos de viaje. 
+          </p>
+          <ul>
+              <li class="det">Distribución de los tipos de envío (gráfico de barras)</li>
+              <li class="det">Análisis de puntualidad (envíos "A Tiempo" vs. "Tarde").</li>
+              <li class="det">Distribución de la distancia de transporte (histograma).</li>
+              <li class="det">Comparación de proveedores por cantidad de envíos.</li>
+          </ul>
+      </div>
+    </div>
 
     
       
