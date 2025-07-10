@@ -33,6 +33,10 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById("btnModal6").onclick = function() {
       openModal("myModal6");
     }
+
+    document.getElementById("btnModal7").onclick = function() {
+      openModal("myModal7");
+    }
   
   
     // Asignar eventos a los botones de cierre
