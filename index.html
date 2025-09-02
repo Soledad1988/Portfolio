@@ -72,7 +72,7 @@
                     <ul class="styled-list">
                       <li>Modelado de datos desde Google Sheets.</li>
                       <li>Campos calculados: cantidad de tickets, tiempo promedio y ratio de resolución.</li>
-                      <li>Dashboards interactivos con mapas y tablas dinámicas.</li>
+                      <li>Dashboards interactivos con mapas y tablas.</li>
                     </ul>
                   </div>
                   
@@ -80,8 +80,8 @@
                     <h5>🐍 Python / Pandas</h5>
                     <ul class="styled-list">
                       <li>Limpieza y normalización de datasets de soporte.</li>
-                      <li>Análisis exploratorio (EDA) con Pandas y Numpy.</li>
-                      <li>Visualización de patrones con Matplotlib y Seaborn.</li>
+                      <li>Análisis exploratorio (EDA) con Pandas.</li>
+                      <li>Visualización de patrones con Matplotlib.</li>
                     </ul>
                   </div>
 
@@ -186,68 +186,65 @@
 
         <!-- Proyecto 4 -->
         <div class="project-card">
-           <h3>Análisis Pizzas</h3>
-          <img src="img/AnalisisPizza.png" alt="Dashboard Call Center" class="project-img">
+           <h3>Análisis Call Center</h3>
+          <img src="img/CallCenter.png" alt="Dashboard Call Center" class="project-img">
         <div>
 
         <div class="project-details">
 
           <div class="section">
             <h4 class="section-title">🎯 Objetivo</h4>
-            <p>Desarrollar un dashboard interactivo en Power BI a partir de una base de datos en Excel con el fin de analizar las ventas de pizzas mediante indicadores clave, visualizaciones dinámicas y segmentaciones por fecha, categoría y tamaño de producto.</p>
+            <p>Desarrollar un dashboard interactivo en <strong>Power BI</strong> y <strong>Looker Studio</strong> a partir de un archivo CSV, con el fin de analizar las llamadas del Call Center, mejorar los tiempos de respuesta y optimizar la gestión de soporte y atención al cliente.</p>
           </div>
 
           <div class="section">
-                <h4 class="section-title">📊 Técnicas aplicadas</h4>
-                <div class="tech-grid">
-                  
-                  <div class="tech-card">
-                    <h5>⚡ Power BI</h5>
-                    <ul class="styled-list">
-                      <li class="det"><strong>Modelo de datos:</strong> Integración de tablas de órdenes, productos y categorías a través de claves primarias y foráneas.</li>
-                      <li class="det"><strong>Medidas DAX:</strong> Cálculos utilizando <code>SUM</code>, <code>COUNT</code>, <code>RELATED</code>, <code>MAX</code> y <code>CALCULATE</code>.</li>
-                      <li class="det"><strong>Visualizaciones:</strong> Gráficos de barras, matrices, líneas de tiempo y tarjetas de KPI.</li>
-                      <li class="det"><strong>Segmentación:</strong> Filtros interactivos por fecha, tipo de pizza, tamaño y categoría.</li>
-                    </ul>
-                  </div>
-                  
-                  <div class="tech-card">
-                    <h5>🌍 Looker Studio</h5>
-                    <ul class="styled-list">
-                      <li>Modelado de datos desde Google Sheets.</li>
-                      <li>Campos calculados: cantidad de tickets, tiempo promedio y ratio de resolución.</li>
-                      <li>Dashboards interactivos con mapas y tablas dinámicas.</li>
-                    </ul>
-                  </div>
-
-                </div>
+            <h4 class="section-title">📊 Técnicas aplicadas</h4>
+            <div class="tech-grid">
+              
+              <div class="tech-card">
+                <h5>⚡ Power BI</h5>
+                <ul class="styled-list">
+                  <li class="det"><strong>Modelo de datos:</strong> Esquema estrella con relaciones bien definidas entre hechos y dimensiones.</li>
+                  <li class="det"><strong>Medidas DAX:</strong> Uso de funciones como <code>SUM</code>, <code>SUMX</code>, <code>MAX</code>, <code>AVERAGE</code> y <code>COUNTROWS</code>.</li>
+                </ul>
               </div>
+              
+              <div class="tech-card">
+                <h5>🌍 Looker Studio</h5>
+                <ul class="styled-list">
+                  <li class="det"><strong>Modelado de datos:</strong> Conexión directa al archivo Sheets.</li>
+                  <li class="det"><strong>Campos calculados:</strong> Creación de métricas como porcentaje de llamadas atendidas, porcentaje de resolución y tiempo promedio de respuesta.</li>
+                  <li class="det"><strong>Visualizaciones:</strong> Gráficos de barras, indicadores y tablas.</li>
+                  <li class="det"><strong>Segmentación:</strong> Filtros interactivos por agentes y temas.</li>
+                </ul>
+              </div>
+              
+            </div>
+          </div>
 
           <div class="section">
             <h4 class="section-title">📌 Preguntas de negocio respondidas</h4>
             <ul class="styled-list">
-              <li class="det">¿Cuántas órdenes y pizzas se vendieron en total?</li>
-              <li class="det">¿Cuál es el tamaño de pizza con mayor demanda?</li>
-              <li class="det">¿Cuál fue el total de ventas en $ (con uso de <code>RELATED</code>)?</li>
-              <li class="det">¿Cómo se distribuyen las ventas por categoría?</li>
-              <li class="det">¿Qué ingredientes se utilizan con mayor frecuencia en cada categoría?</li>
-              <li class="det">¿Cómo varía la demanda según fecha y día de la semana?</li>
+              <li class="det">¿Cuántas llamadas fueron atendidas?</li>
+              <li class="det">¿Cuántas llamadas fueron resueltas?</li>
+              <li class="det">¿Cuál es el porcentaje de llamadas atendidas?</li>
+              <li class="det">¿Cuál es el porcentaje de llamadas resueltas?</li>
+              <li class="det">¿Cuál fue el tiempo promedio de respuesta?</li>
             </ul>
           </div>
 
           <div class="section impact">
             <h4 class="section-title">🚀 Impacto</h4>
-            <p>El dashboard permite comprender el comportamiento de compra de los clientes y facilita la <strong>optimización de la producción</strong> y la <strong>gestión de stock de ingredientes</strong> en función de la demanda real.</p>
+            <p>El dashboard permitió a las áreas de soporte y atención al cliente <strong>identificar puntos críticos</strong> en la gestión de llamadas, <strong>reducir los tiempos de respuesta</strong> y elevar la <strong>satisfacción del cliente</strong>.</p>
           </div>
 
-        </div>
 
          <!-- Badges de herramientas con links -->
           <div class="tech-badges">
-            <a href="https://app.powerbi.com/view?r=eyJrIjoiYjE3ZGE2ZTYtZDQ0ZC00ZTAxLTg4NDItM2JlMmU2NTk1YTAzIiwidCI6ImE1ZDFiZjQ0LWM4NzEtNDc0NS04NTc4LTMyMTYzMWIzYmIyNiIsImMiOjR9&pageName=66360b49562136907570" target="_blank" class="badge badge-sheets">
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiODNmY2JmNjAtZDk2MS00NmJkLTk3MjMtMmI4M2I5MTNkNDE4IiwidCI6ImE1ZDFiZjQ0LWM4NzEtNDc0NS04NTc4LTMyMTYzMWIzYmIyNiIsImMiOjR9&pageName=c114da345812ec3cb987" target="_blank" class="badge badge-sheets">
               <img src="img/power-bi-2021-48.png" alt="Sheets"> Power BI
             </a>
-            <a href="https://lookerstudio.google.com/" target="_blank" class="badge badge-looker">
+            <a href="https://lookerstudio.google.com/reporting/6601471b-c1a7-4ad7-a07c-cc2c31ad88d2" target="_blank" class="badge badge-looker">
               <img src="img/looker-de-google-48.png" alt="Looker"> Looker Studio
             </a>
           </div>
